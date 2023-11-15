@@ -22,17 +22,17 @@ void SkillTree::setIntelligence(int intelligence)
 	this->intelligence = intelligence;
 }
 
-int SkillTree::getStrengh()
+const int SkillTree::getStrengh()
 {
 	return strengh;
 }
 
-int SkillTree::getAgility()
+const int SkillTree::getAgility()
 {
 	return agility;
 }
 
-int SkillTree::getIntelligence()
+const int SkillTree::getIntelligence()
 {
 	return intelligence;
 }

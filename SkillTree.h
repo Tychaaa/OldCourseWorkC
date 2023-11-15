@@ -29,8 +29,8 @@ public:
     void setIntelligence(int intelligence);
 
     // Геттеры
-    int getStrengh();
-    int getAgility();
-    int getIntelligence();
+    const int getStrengh();
+    const int getAgility();
+    const int getIntelligence();
 
 };
